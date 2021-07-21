@@ -1,0 +1,25 @@
+{
+  "name": "aad-app-node",
+  "version": "1.0.0",
+  "description": "aad app with 3 apis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "tsc -p ./src",
+    "start": "node ./src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-ad-jwt": "^1.1.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-status-codes": "^2.1.4",
+    "pino": "^6.12.0",
+    "pino-pretty": "^5.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.3",
+    "typescript": "^4.3.5"
+  }
+}
